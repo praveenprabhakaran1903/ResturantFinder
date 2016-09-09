@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e5e1">
+
+    <RadioGroup
+        android:id="@+id/radio_group_list_selector"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+
+        android:background="#FFFFFF"
+        android:layout_gravity="bottom"
+        >
+        <ImageView
+            android:id="@+id/fav"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+            android:gravity="left"
+            android:src="@drawable/heart_icon"
+
+            />
+        <TextView
+            android:id="@+id/searchViewResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp" />
+
+        <SearchView
+            android:id="@+id/searchView"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp" >
+        </SearchView>
+
+        <ImageButton
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/location"
+            android:text="location"
+            android:layout_alignBottom="@+id/searchView"/>
+    </RadioGroup>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/radio_group_list_selector" />
+</RelativeLayout>

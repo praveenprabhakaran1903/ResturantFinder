@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Restaurant_Finder</string>
+    <string name ="consumer_key">0Al7l4FGsHY6mqIkZJPrag</string>
+    <string name ="consumer_secret"> oYMk21LqA-0RQXwFJ0-wLlM-5WE"</string>
+    <string name ="token">xwM1CN6dCM0LrBOckgnRciDxQvOjmFn5</string>
+    <string name ="token_secret">wb6O26H2dCjr3khS2q4J2mDbTtg</string>
+</resources>
